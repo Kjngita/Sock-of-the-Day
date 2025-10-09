@@ -12,5 +12,7 @@ function CompareColorSteps(_first, _second)
 	var green_steps = round(green_diff / 51);
 	var blue_steps = round(blue_diff / 51);
 	
+	delete colVec1;
+	delete colVec2;
 	return red_steps + green_steps + blue_steps;
 }
