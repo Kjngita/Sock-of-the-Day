@@ -1,5 +1,8 @@
 randomise();
-random_color_1st_sock = make_colour_rgb(irandom(255), irandom(255), irandom(255));
+random_color_1st_sock = make_colour_rgb(
+						(irandom(3) + 2) * 51, 
+						(irandom(3) + 2) * 51,
+						(irandom(3) + 2) * 51);
 image_blend = random_color_1st_sock;
 var r = colour_get_red(image_blend);
 var g = colour_get_green(image_blend);

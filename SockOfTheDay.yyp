@@ -22,6 +22,7 @@
     {"id":{"name":"obj_1stsock","path":"objects/obj_1stsock/obj_1stsock.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_rightsock","path":"objects/obj_rightsock/obj_rightsock.yy",},},
+    {"id":{"name":"WinConObserver","path":"objects/WinConObserver/WinConObserver.yy",},},
     {"id":{"name":"DEFAULT","path":"rooms/DEFAULT/DEFAULT.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"AddToBlue","path":"scripts/AddToBlue/AddToBlue.yy",},},
