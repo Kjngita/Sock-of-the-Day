@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"AddToBlue",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"AddToBlue",
+  "parent":{
+    "name":"SockOfTheDay",
+    "path":"SockOfTheDay.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

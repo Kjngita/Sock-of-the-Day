@@ -20,6 +20,9 @@
   "name":"SockOfTheDay",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"AddToBlue","path":"scripts/AddToBlue/AddToBlue.yy",},},
+    {"id":{"name":"AddToGreen","path":"scripts/AddToGreen/AddToGreen.yy",},},
+    {"id":{"name":"AddToRed","path":"scripts/AddToRed/AddToRed.yy",},},
     {"id":{"name":"CompareColorRatio","path":"scripts/CompareColorRatio/CompareColorRatio.yy",},},
     {"id":{"name":"CompareColorSteps","path":"scripts/CompareColorSteps/CompareColorSteps.yy",},},
     {"id":{"name":"Vec3","path":"scripts/Vec3/Vec3.yy",},},
