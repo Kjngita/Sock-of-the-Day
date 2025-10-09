@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CompareColorSteps",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CompareColorSteps",
+  "parent":{
+    "name":"SockOfTheDay",
+    "path":"SockOfTheDay.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

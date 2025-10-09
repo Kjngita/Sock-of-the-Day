@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Vec3",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Vec3",
+  "parent":{
+    "name":"SockOfTheDay",
+    "path":"SockOfTheDay.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

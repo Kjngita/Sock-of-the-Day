@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CompareColorRatio",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CompareColorRatio",
+  "parent":{
+    "name":"SockOfTheDay",
+    "path":"SockOfTheDay.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
