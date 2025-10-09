@@ -1,5 +1,5 @@
 
-var steps = CompareColorSteps(obj_rightsock.image_blend, obj_1stsock.image_blend);
+var steps = CompareColorSteps(right.image_blend, left.image_blend);
 show_debug_message("Step difference: " + string(steps));
 if (steps == 0)
 {
