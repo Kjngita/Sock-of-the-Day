@@ -21,7 +21,7 @@ function Vec3(_x = 0, _y = 0, _z = 0) constructor
 		return _lhs.x * _rhs.x + _lhs.y * _rhs.y + _lhs.z * _rhs.z;
 	}
 	
-	ToColor = function()
+	ToRGBFromNormalized = function()
 	{
 		return make_color_rgb(
 		clamp(round(x * 255), 0, 255),
@@ -29,11 +29,24 @@ function Vec3(_x = 0, _y = 0, _z = 0) constructor
 		clamp(round(z * 255), 0, 255));
 	}
 	
-	static ColorToVec = function(_col)
+	ToRGB = function()
+	{
+		return make_color_rgb(x, y, z);
+	}
+	
+	static ColorToVecNormalized = function(_col)
 	{
 		r = color_get_red(_col);
 		g = color_get_green(_col);
 		b = color_get_blue(_col);
 		return new Vec3(r / 255, g / 255, b / 255);
+	}
+	
+	static ColorToVec = function(_col)
+	{
+		return new Vec3(
+		color_get_red(_col),
+		color_get_green(_col),
+		color_get_blue(_col));
 	}
 }
