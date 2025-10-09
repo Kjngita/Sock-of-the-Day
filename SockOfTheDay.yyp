@@ -19,6 +19,10 @@
   },
   "name":"SockOfTheDay",
   "resources":[
+    {"id":{"name":"obj_1stsock","path":"objects/obj_1stsock/obj_1stsock.yy",},},
+    {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
+    {"id":{"name":"obj_rightsock","path":"objects/obj_rightsock/obj_rightsock.yy",},},
+    {"id":{"name":"DEFAULT","path":"rooms/DEFAULT/DEFAULT.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"AddToBlue","path":"scripts/AddToBlue/AddToBlue.yy",},},
     {"id":{"name":"AddToGreen","path":"scripts/AddToGreen/AddToGreen.yy",},},
@@ -26,11 +30,14 @@
     {"id":{"name":"CompareColorRatio","path":"scripts/CompareColorRatio/CompareColorRatio.yy",},},
     {"id":{"name":"CompareColorSteps","path":"scripts/CompareColorSteps/CompareColorSteps.yy",},},
     {"id":{"name":"Vec3","path":"scripts/Vec3/Vec3.yy",},},
+    {"id":{"name":"sprite_button","path":"sprites/sprite_button/sprite_button.yy",},},
+    {"id":{"name":"sprite_sock","path":"sprites/sprite_sock/sprite_sock.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"DEFAULT","path":"rooms/DEFAULT/DEFAULT.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
