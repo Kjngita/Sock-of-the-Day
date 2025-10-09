@@ -1,0 +1,9 @@
+randomise();
+random_color_1st_sock = make_colour_rgb(irandom(255), irandom(255), irandom(255));
+image_blend = random_color_1st_sock;
+var r = colour_get_red(image_blend);
+var g = colour_get_green(image_blend);
+var b = colour_get_blue(image_blend);
+show_debug_message ("Current r left: " + string(r));
+show_debug_message ("Current g left: " + string(g));
+show_debug_message ("Current b left: " + string(b));
