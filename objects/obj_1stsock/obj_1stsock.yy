@@ -3,6 +3,7 @@
   "%Name":"obj_1stsock",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_1stsock",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_sock",
-    "path":"sprites/sprite_sock/sprite_sock.yy",
+    "name":"innersock",
+    "path":"sprites/innersock/innersock.yy",
   },
   "spriteMaskId":null,
   "visible":true,
